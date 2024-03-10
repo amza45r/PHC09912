@@ -1,0 +1,46 @@
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #edeeee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 81, 255);
+    .text-section,
+    .response-section,
+    .comment-section,
+    .admin-section {
+        margin-bottom: 30px;
+    }
+    h2 {
+        color: #333;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+    }
+    p {
+        line-height: 1.6;
+        color: #555555;
+    }
+    .comment-section textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .comment-section button {
+        background-color: #3498db;
+        color: #ffffff;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    .admin-section {
+        background-color: #002fff;
+        padding: 15px;
+        border-radius: 8px;
+    }

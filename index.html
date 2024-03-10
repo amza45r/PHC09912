@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHCRP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        #audioPlayer {
+            display: none;
+        }
+        
+        #playButton {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0044ff00;
+            color: rgb(255, 0, 0);
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <audio id="audioPlayer" controls>
+    <source src="mu/InShot__.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+</audio>
+
+    <button id="playButton" onclick="togglePlay()">تشغيل الأغنية</button>
+
+    <script>
+        var audioPlayer = document.getElementById('audioPlayer');
+        var playButton = document.getElementById('playButton');
+
+        function togglePlay() {
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+                playButton.innerHTML = 'إيقاف الأغنية';
+            } else {
+                audioPlayer.pause();
+                playButton.innerHTML = 'تشغيل الأغنية';
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>PHCWEP</title>
+
+
+</head>
+
+<body>
+    <header>
+
+        <h2><a href="#" class="logo">PHCRP</a></h2>
+        <Ul>
+
+            <li><a href="index.html" class="active">الصفحة الرئيسية</a></li>
+            <li><a href="Aply.html">التعليقات</a></li>
+            <li><a href="rakwan-shop/admin/index.php">المتجر</a></li>
+            <li><a href="#">معلومات عننا</a></li>
+            <li><a href="https://discord.gg/phc-rp">ديسكورد</a></li>
+            <li><a href="gift.html">هدية يومية</a></li>
+        </Ul>
+    </header>
+    <section class="main">
+        <img src="img/stars1.png" id="stars">
+        <img src="img/moon2.png" id="moon">
+        <img src="img/mountains3.png" id="mountains3">
+        <img src="img/mountains4.png" id="mountains4">
+        <img src="img/river5.png" id="river">
+        <img src="img/boat6.png" id="boat">
+        <img src="img/mountains7.png" id="mountains7">
+    </section>
+    <div class="content">
+        <h2>مدينة الفراعنة خادم عربي يمتاز بالعديد من الحصريات و الأنظمة المتطورة التي تخدم مصلحة اللاعب بالمركز الأول وتسمح له بإنشاء عالم خاص به بشكل واقعي ومميز وأيضا يتوفر على برمجيات متطورة جدا تسمح له بالوصول الى مراكز عليا في منصة الحياة الواقعية و
+            ادارة مميزة تخدم مصالح اللاعبين
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus asperiores aliquid quae suscipit et explicabo provident unde nisi rem voluptate laborum facere nulla libero, eveniet, est placeat ea, amet consequuntur dignissimos molestias.
+            Ullam, veritatis esse ut a quas illum? Aut vitae ad, esse eaque accusamus quibusdam mollitia earum facilis nobis exercitationem similique vel accusantium ut labore voluptatibus? Magni, vitae! Quisquam odio quia quo, libero veniam totam. Assumenda
+            qui magnam tempora dolor. Facilis atque quaerat dolore dolorum hic quidem recusandae dicta. Tenetur hic laborum maxime dolorum vero totam tempora possimus dicta ab, ut amet, nisi cumque minus iste quis aliquam.</p><br> qui magnam tempora dolor.
+        Facilis atque quaerat dolore dolorum hic quidem recusandae dicta. Tenetur hic laborum maxime dolorum vero totam tempora possimus dicta ab, ut amet, nisi cumque minus iste quis aliquam.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus asperiores aliquid quae suscipit et explicabo provident unde nisi rem voluptate laborum facere nulla libero, eveniet, est placeat ea, amet consequuntur dignissimos molestias.
+            Ullam, veritatis esse ut a quas illum? Aut vitae ad, esse eaque accusamus quibusdam mollitia earum facilis nobis exercitationem similique vel accusantium ut labore voluptatibus? Magni, vitae! Quisquam odio quia quo, libero veniam totam. Assumenda
+            qui magnam tempora dolor. Facilis atque quaerat dolore dolorum hic quidem recusandae dicta. Tenetur hic laborum maxime dolorum vero totam tempora possimus dicta ab, ut amet, nisi cumque minus iste quis aliquam.</p><br> qui magnam tempora dolor.
+        Facilis atque quaerat dolore dolorum hic quidem recusandae dicta. Tenetur hic laborum maxime dolorum vero totam tempora possimus dicta ab, ut amet, nisi cumque minus iste quis aliquam.</p><br>
+
+
+
+
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
